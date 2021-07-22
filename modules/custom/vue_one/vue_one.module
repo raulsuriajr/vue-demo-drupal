@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains vue_one.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function vue_one_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the vue_one module.
+    case 'help.page.vue_one':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Vue Demo in Drupal using custom module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
