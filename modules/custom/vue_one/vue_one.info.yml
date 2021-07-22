@@ -1,5 +1,0 @@
-name: 'vue_one'
-type: module
-description: 'Vue Demo in Drupal using custom module'
-core_version_requirement: 9.x
-package: 'Custom'
