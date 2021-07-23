@@ -1,0 +1,4 @@
+vue_test:
+  version: 1
+  js:
+    dist/js/app.js: {}

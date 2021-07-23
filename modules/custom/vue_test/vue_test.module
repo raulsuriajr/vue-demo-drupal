@@ -33,3 +33,7 @@ function vue_test_theme() {
     ],
   ];
 }
+
+function vue_test_page_attachments(array &$pages) {
+  $pages['#attached']['library'][] = 'vue_test/vue_test';
+}
