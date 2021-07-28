@@ -1,0 +1,7 @@
+vue_two.vue_controller_hello:
+  path: '/vue-two/hello'
+  defaults:
+    _controller: '\Drupal\vue_two\Controller\VueController::index'
+    _title: 'Vue Test'
+  requirements:
+    _permission: 'access content'

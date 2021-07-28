@@ -1,18 +1,17 @@
 {
-  "name": "vue_test",
+  "name": "vue_two",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx mix"
+    "dev": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "laravel-mix": "^6.0.25",
-    "vue-loader": "^15.9.6",
+    "laravel-mix": "5.0",
     "vue-template-compiler": "^2.6.14"
   },
   "dependencies": {

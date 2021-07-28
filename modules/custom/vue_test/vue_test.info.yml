@@ -1,5 +1,0 @@
-name: 'vue_test'
-type: module
-description: 'Vue test for custom module created using drupal console'
-core_version_requirement: 9.x
-package: 'Custom'

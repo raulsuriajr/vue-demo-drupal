@@ -1,8 +1,0 @@
-
-vue_test.vue_test_controller:
-  path: '/vue_test'
-  defaults:
-    _controller: '\Drupal\vue_test\Controller\VueTestController::index'
-    _title: 'index'
-  requirements:
-    _permission: 'access content'

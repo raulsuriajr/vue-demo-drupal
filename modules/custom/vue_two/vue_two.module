@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains vue_two.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function vue_two_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the vue_two module.
+    case 'help.page.vue_two':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This is the second try') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function vue_two_theme() {
+  return [
+    'vue_two' => [
+      'render element' => 'children',
+    ],
+  ];
+}
