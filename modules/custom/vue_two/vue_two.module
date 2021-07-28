@@ -33,3 +33,7 @@ function vue_two_theme() {
     ],
   ];
 }
+
+function vue_two_page_attachments_alter(&$variables) {
+  $variables['#attached']['library'][] = 'vue_two/vue';
+}
